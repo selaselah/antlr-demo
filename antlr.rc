@@ -1,0 +1,4 @@
+ROOT=$(cd $(dirname $BASH_SOURCE) && pwd)
+export CLASSPATH=".:$ROOT/lib/antlr-4.8-complete.jar:$CLASSPATH"
+alias antlr4="java -jar $ROOT/lib/antlr-4.8-complete.jar"
+alias grun='java org.antlr.v4.gui.TestRig'
