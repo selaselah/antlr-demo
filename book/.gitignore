@@ -2,6 +2,7 @@
 *.tokens
 *.interp
 *Listener.java
+*Visitor.java
 *Lexer.java
 *Parser.java
 *.class
